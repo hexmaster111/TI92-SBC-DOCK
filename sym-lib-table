@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "teensy")(type "Legacy")(uri "C:/Users/Hailey/Desktop/TI92-revive-main/lib/teensy.lib")(options "")(descr ""))
+  (lib (name "tp4056")(type "Legacy")(uri "C:/Users/Hailey/Desktop/TI92-revive-main/lib/tp4056.lib")(options "")(descr ""))
+)
