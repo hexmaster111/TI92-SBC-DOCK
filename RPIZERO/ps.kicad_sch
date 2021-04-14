@@ -1975,7 +1975,7 @@
     (uuid 4ff6a8d9-0b28-4bfa-8900-338acb47d18c)
     (property "Reference" "J1" (id 0) (at 146.177 82.55 0))
     (property "Value" "USB_B" (id 1) (at 146.177 85.09 0))
-    (property "Footprint" "" (id 2) (at 148.59 95.25 0)
+    (property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal" (id 2) (at 148.59 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (id 3) (at 148.59 95.25 0)

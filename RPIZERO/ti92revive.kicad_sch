@@ -4770,7 +4770,7 @@
       (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/4ff6a8d9-0b28-4bfa-8900-338acb47d18c"
-      (reference "J1") (unit 1) (value "USB_B") (footprint "")
+      (reference "J1") (unit 1) (value "USB_B") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/27b26cab-b05f-41b1-844c-f7238f2aa22a"
       (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/lib/teensy.kicad_sym")(options "")(descr ""))
+  (lib (name "tp4056")(type "KiCad")(uri "${KIPRJMOD}/lib/TP4056.kicad_sym")(options "")(descr ""))
+  (lib (name "cm4")(type "KiCad")(uri "${KIPRJMOD}/lib/Raspberry_Pi_Compute_Module_4.kicad_sym")(options "")(descr ""))
+)
