@@ -131,7 +131,6 @@
   (junction (at 49.53 45.72) (diameter 1.016) (color 0 0 0 0))
   (junction (at 49.53 57.15) (diameter 1.016) (color 0 0 0 0))
   (junction (at 49.53 68.58) (diameter 1.016) (color 0 0 0 0))
-  (junction (at 49.53 81.28) (diameter 1.016) (color 0 0 0 0))
   (junction (at 49.53 95.25) (diameter 1.016) (color 0 0 0 0))
   (junction (at 49.53 106.68) (diameter 1.016) (color 0 0 0 0))
   (junction (at 54.61 43.18) (diameter 1.016) (color 0 0 0 0))
@@ -384,11 +383,7 @@
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 40c387de-ca72-424e-9f37-034a722f6c5b)
   )
-  (wire (pts (xy 49.53 68.58) (xy 49.53 81.28))
-    (stroke (width 0) (type solid) (color 0 0 0 0))
-    (uuid 69fcee45-b668-45b3-a6a4-adeb46cf6928)
-  )
-  (wire (pts (xy 49.53 81.28) (xy 49.53 95.25))
+  (wire (pts (xy 49.53 68.58) (xy 49.53 95.25))
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (uuid 69fcee45-b668-45b3-a6a4-adeb46cf6928)
   )
@@ -2783,23 +2778,6 @@
     (pin "2" (uuid ae6cf6d3-b29a-4a29-88c6-3f648fbd8f1b))
   )
 
-  (symbol (lib_id "kb5-rescue:SW_Push_45deg-sw_push_45deg-ESP32-S2-WROOM-rescue") (at 46.99 83.82 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 00000000-0000-0000-0000-00005f46a970)
-    (property "Reference" "kbCTRL1" (id 0) (at 43.942 82.804 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "CTRL" (id 1) (at 44.831 88.011 0))
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (id 2) (at 46.99 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (id 3) (at 46.99 83.82 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 39851145-5949-44e4-88bc-0c1271ba6aad))
-    (pin "2" (uuid 99081b43-b872-4376-b17b-2a8055b95a8e))
-  )
-
   (symbol (lib_id "kb5-rescue:SW_Push_45deg-sw_push_45deg-ESP32-S2-WROOM-rescue") (at 46.99 97.79 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005f46a9bf)
@@ -4524,9 +4502,6 @@
     (path "/00000000-0000-0000-0000-00005f46aa2f"
       (reference "kbCOS1") (unit 1) (value "Cos") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
     )
-    (path "/00000000-0000-0000-0000-00005f46a970"
-      (reference "kbCTRL1") (unit 1) (value "CTRL") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
-    )
     (path "/00000000-0000-0000-0000-00005f46a9da"
       (reference "kbClear1") (unit 1) (value "Clear") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
     )
@@ -4839,6 +4814,15 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/3f2beacc-4c26-442d-a72b-21d65e6b4b1d"
       (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/95468824-7c1d-443f-a8ac-4660623e14d4"
+      (reference "#PWR0125") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/01d49955-ce16-4679-84dd-0ff91cf786fb"
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/c6da99c8-b4b3-4dbe-be0f-27336a07a512"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/80fbd759-c4d6-45da-b3e3-0311235b4d7d"
       (reference "C1") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -4875,6 +4859,9 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/e5902921-eea8-4549-81f4-54f1666f3a72"
       (reference "D81") (unit 1) (value "CHG/ERR") (footprint "LED_SMD:LED_2010_5025Metric")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/8b0a5711-f04b-498c-8ef5-a5931db71271"
+      (reference "D82") (unit 1) (value "PWR IND") (footprint "LED_SMD:LED_2010_5025Metric")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/4ff6a8d9-0b28-4bfa-8900-338acb47d18c"
       (reference "J1") (unit 1) (value "USB_B") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
@@ -4884,11 +4871,17 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/fa273ebd-22d0-41f0-8d2d-782d2a3f7e99"
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/4e784aab-71cc-4c7d-a62b-5b612f67a69c"
+      (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/418533cd-a032-4d3c-b720-9898a8ff1bef"
       (reference "L1") (unit 1) (value "1uH") (footprint "Inductor_SMD:L_1812_4532Metric")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/a1ed6cbb-7684-4ca2-85dd-84f72fc953f2"
       (reference "L2") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_1812_4532Metric")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/b3a413b5-1655-4671-94a4-ce23d53b0e41"
+      (reference "Q1") (unit 1) (value "Q_NPN_BCE") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/d16af4a5-42a2-4b5e-9c3f-f620b161ad34"
       (reference "R1") (unit 1) (value "30.1K") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -4923,6 +4916,12 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/36278284-8f28-4a93-85ba-b32e6c6a34d9"
       (reference "R11") (unit 1) (value "23.2K") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/d8c06304-a0b6-484c-ac74-76fe91026dd3"
+      (reference "R12") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/a75dec26-5524-459e-ad14-b2eb019c0c8b"
+      (reference "R13") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/20efb7b5-d06a-4672-b7fd-f2a22b114571"
       (reference "TH1") (unit 1) (value "10K") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
@@ -4937,6 +4936,12 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/300d9dc1-1234-44cf-956e-f95c3037ecbf"
       (reference "U4") (unit 1) (value "MAX17643") (footprint "trinamic-footprints:TDFN-12_3x3mm_P0.5mm")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/90e9b6d9-586a-40d0-91a9-d7b031629f8a"
+      (reference "U5") (unit 1) (value "ATTINY85-20PU") (footprint "digikey-footprints:DIP-8_W7.62mm")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/1f2458b3-7fdf-4658-a10e-b0bf6aff31ca"
+      (reference "kbPowerButton1") (unit 1) (value "CTRL") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
     )
   )
 )
