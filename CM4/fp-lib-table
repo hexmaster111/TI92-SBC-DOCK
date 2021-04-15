@@ -1,3 +1,6 @@
 (fp_lib_table
   (lib (name "CM4")(type "KiCad")(uri "${KIPRJMOD}/lib/RPi_Compute_Module_4.pretty")(options "")(descr ""))
+  (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/digikey-kicad-library/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "trinamic-footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/digikey-partner-kicad-library/Trinamic/trinamic-footprints.pretty")(options "")(descr ""))
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/lib/teensy.pretty")(options "")(descr ""))
 )
