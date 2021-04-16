@@ -4722,7 +4722,7 @@
       (reference "U1") (unit 1) (value "Compute_Module_4_Connectors") (footprint "CM4:Raspberry-Pi-4-Compute-Module")
     )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/21838fb2-e922-4fae-af93-32760bec66ff"
-      (reference "U2") (unit 2) (value "Compute_Module_4_Connectors") (footprint "CM4:Raspberry-Pi-4-Compute-Module")
+      (reference "U1") (unit 2) (value "Compute_Module_4_Connectors") (footprint "CM4:Raspberry-Pi-4-Compute-Module")
     )
     (path "/70488e98-77ad-453e-805e-5550091ec25f/afdddf07-be49-42ed-a86b-4fac4d98aea9"
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
@@ -4823,6 +4823,12 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/c6da99c8-b4b3-4dbe-be0f-27336a07a512"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/967c0014-954f-4ded-b9ea-4c535b1c056d"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/6529cbac-5e7e-490a-800c-e0a61c7bd584"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/80fbd759-c4d6-45da-b3e3-0311235b4d7d"
       (reference "C1") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -4862,6 +4868,12 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/8b0a5711-f04b-498c-8ef5-a5931db71271"
       (reference "D82") (unit 1) (value "PWR IND") (footprint "LED_SMD:LED_2010_5025Metric")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/c6174886-ae5d-4482-ac8c-11507af2ade2"
+      (reference "D83") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/009a47e4-43c2-4baf-9ace-ad2a29076c77"
+      (reference "D84") (unit 1) (value "1N4148W") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/4ff6a8d9-0b28-4bfa-8900-338acb47d18c"
       (reference "J1") (unit 1) (value "USB_B") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
@@ -4880,8 +4892,11 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/a1ed6cbb-7684-4ca2-85dd-84f72fc953f2"
       (reference "L2") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_1812_4532Metric")
     )
-    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/b3a413b5-1655-4671-94a4-ce23d53b0e41"
-      (reference "Q1") (unit 1) (value "Q_NPN_BCE") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/06d1570c-ad6a-4b19-8c40-f245621c9324"
+      (reference "Q1") (unit 1) (value "EMH3") (footprint "Package_TO_SOT_SMD:SOT-563")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/6f3f078a-70b4-4fef-8a0f-3dc77de2e939"
+      (reference "Q1") (unit 2) (value "EMH3") (footprint "Package_TO_SOT_SMD:SOT-563")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/d16af4a5-42a2-4b5e-9c3f-f620b161ad34"
       (reference "R1") (unit 1) (value "30.1K") (footprint "Resistor_SMD:R_1206_3216Metric")
@@ -4916,9 +4931,6 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/36278284-8f28-4a93-85ba-b32e6c6a34d9"
       (reference "R11") (unit 1) (value "23.2K") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
-    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/d8c06304-a0b6-484c-ac74-76fe91026dd3"
-      (reference "R12") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
-    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/a75dec26-5524-459e-ad14-b2eb019c0c8b"
       (reference "R13") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
@@ -4939,6 +4951,9 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/90e9b6d9-586a-40d0-91a9-d7b031629f8a"
       (reference "U5") (unit 1) (value "ATTINY85-20PU") (footprint "digikey-footprints:DIP-8_W7.62mm")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/4617a709-2d7c-4a81-8a22-e74a3c66a0cd"
+      (reference "U6") (unit 1) (value "TQ2SA-L2-3V-Z-Remake") (footprint "teensy:TQ2SA-L2-3V-Z")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/1f2458b3-7fdf-4658-a10e-b0bf6aff31ca"
       (reference "kbPowerButton1") (unit 1) (value "CTRL") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
