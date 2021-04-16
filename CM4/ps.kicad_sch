@@ -2825,7 +2825,8 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid e6f23a4a-a6a3-46fd-a21e-d8856f180c6a)
   )
-  (text "pin 2 is NEGITIVE on boths connectors" (at 114.935 87.63 0)
+  (text "pin 2 is NEGITIVE on boths connectors\nAlso should add some sort of lv cut off\nfor batCell+"
+    (at 121.539 91.694 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 51f3ea0f-6122-424f-b10b-e443419db4d0)
   )

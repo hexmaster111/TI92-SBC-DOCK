@@ -1,0 +1,25 @@
+
+
+Use a pin on the pi as a way to know if the system is on and if that pin goes low we disconnect the battery from the 5v converter
+
+
+
+if power=off & PowerButton=on //Turn on +5v rail (ColdBoot)
+	SETPIN goes high
+	wait(50ms)
+	SETPIN goes low
+	wait(1min)
+
+	
+
+if PiOnPin=low & power=on  //Shutdown pi after power on pin goes low
+	RESETPIN high
+	Wait(50ms)
+	RESETPIN low
+
+
+if PiOnPin=high & power=on & PowerButton=on //Force Shutdown 
+	if PowerButton = held for 10 sec
+		RESETPIN high
+		Wait(50ms)
+		RESETPIN low	
