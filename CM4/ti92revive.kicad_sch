@@ -3214,18 +3214,6 @@
     (pin "2" (uuid 69f69e25-a560-4bc3-b538-02ec58b44655))
   )
 
-  (sheet (at 241.935 69.85) (size 28.575 10.16)
-    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 60beade3-25b6-4075-b5fd-5a6340fab42e)
-    (property "Sheet name" "Keyboard Matrix Connections" (id 0) (at 241.935 69.2143 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheet file" "keypadCons.kicad_sch" (id 1) (at 241.935 80.5187 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
   (sheet (at 241.935 53.975) (size 28.575 8.89)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -3258,6 +3246,18 @@
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
     (property "Sheet file" "TestPoints.kicad_sch" (id 1) (at 241.935 47.4987 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 241.935 69.85) (size 28.575 10.16)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 60beade3-25b6-4075-b5fd-5a6340fab42e)
+    (property "Sheet name" "USB and Keyboard connections" (id 0) (at 241.935 69.2143 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "keypadCons.kicad_sch" (id 1) (at 241.935 80.5187 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -3548,7 +3548,7 @@
       (reference "R12") (unit 1) (value "1K") (footprint "")
     )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/efddf7d7-25b1-4157-9149-ddf2be1495df"
-      (reference "TP12") (unit 1) (value "USB_OTG_ID_TP") (footprint "")
+      (reference "TP12") (unit 1) (value "USB_OTG_ID_TP") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/e33133e0-fc58-4981-bd2e-26b87cd36954"
       (reference "U1") (unit 1) (value "Compute_Module_4_Connectors") (footprint "CM4:Raspberry-Pi-4-Compute-Module")
@@ -3661,6 +3661,15 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/6529cbac-5e7e-490a-800c-e0a61c7bd584"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/264017f1-90e9-41ac-bc61-3c4cd423311a"
+      (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/47e264c8-28ec-4add-b778-4b54ecfcc8a9"
+      (reference "#PWR0132") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/ab14938e-a875-4e8c-bb9d-f2db6468077f"
+      (reference "#PWR0133") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/80fbd759-c4d6-45da-b3e3-0311235b4d7d"
       (reference "C1") (unit 1) (value "4.7 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
@@ -3693,6 +3702,12 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/2b27b652-6260-4d72-ac87-430f0bd7c86a"
       (reference "C11") (unit 1) (value "22uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/7837710e-0644-450f-93a5-ae91e8f84463"
+      (reference "C12") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/f6ec5553-9e4a-483f-bed3-747f1afc7776"
+      (reference "C13") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/e5902921-eea8-4549-81f4-54f1666f3a72"
       (reference "D81") (unit 1) (value "CHG/ERR") (footprint "LED_SMD:LED_2010_5025Metric")
@@ -3774,6 +3789,9 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/0f036371-10f0-437e-ba93-766a5f86cb18"
       (reference "TP11") (unit 1) (value "TS") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/cfd44934-7283-4e57-be21-7e0082b17f87"
+      (reference "U2") (unit 1) (value "NCP114ASN330T1G") (footprint "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/42717736-8383-4ae5-a746-4cc3d5884ee8"
       (reference "U3") (unit 1) (value "BQ25887RGET") (footprint "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.45x2.45mm_ThermalVias")
