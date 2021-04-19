@@ -3535,11 +3535,20 @@
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/864d64a4-86b1-466b-85ce-bdf0b3680083"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
+    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/c092cbc8-5162-4f5d-a00e-5753ca9779d5"
+      (reference "#PWR0147") (unit 1) (value "GND") (footprint "")
+    )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/c4283c5d-b8d4-4ec1-8a14-9048e54a2c87"
       (reference "D1") (unit 1) (value "Activity") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
+    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/7d1dffd3-338e-4f54-ba7e-a5fdf404da1e"
+      (reference "JP4") (unit 1) (value "nRPIBOOT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
+    )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/049986b7-1492-41ba-8ea9-2a6ea2286030"
       (reference "R12") (unit 1) (value "1K") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/9d39c217-0d7e-4dd2-84a6-2e2068fff3af"
+      (reference "R19") (unit 1) (value "300") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/efddf7d7-25b1-4157-9149-ddf2be1495df"
       (reference "TP12") (unit 1) (value "USB_OTG_ID_TP") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -3737,10 +3746,10 @@
       (reference "J1") (unit 1) (value "USB_B") (footprint "Connector_USB:USB_Micro-B_Amphenol_10103594-0001LF_Horizontal")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/27b26cab-b05f-41b1-844c-f7238f2aa22a"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "J2") (unit 1) (value "Bat0") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/fa273ebd-22d0-41f0-8d2d-782d2a3f7e99"
-      (reference "J3") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
+      (reference "J3") (unit 1) (value "Bat1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/4e784aab-71cc-4c7d-a62b-5b612f67a69c"
       (reference "JP1") (unit 1) (value "PowerControllerBipass") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
@@ -3794,7 +3803,7 @@
       (reference "R13") (unit 1) (value "330") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/20efb7b5-d06a-4672-b7fd-f2a22b114571"
-      (reference "TH1") (unit 1) (value "10K") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "TH1") (unit 1) (value "10K Thermister") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/c7dbf1db-34d0-4720-a945-b6eb2e3560ea"
       (reference "TP10") (unit 1) (value "REGN") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
