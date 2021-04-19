@@ -1,4 +1,7 @@
 
+**NOTE**
+The Zero version is not currently being worked on and is an unusable sate
+
 # TI92 - CM4
 
 TODO
