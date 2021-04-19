@@ -1,5 +1,5 @@
 
-# RPI CM4
+# TI92 - CM4
 
 TODO
 --------
