@@ -78,6 +78,7 @@ Things to Add Perhaps
 - Some way to have a nice GPIO pin header behind a door for a clean look
 - A new keyboard overlay for 2nd keys and the green diamond keys
 - Custom keycaps?! (Clear injections would be cool for backlighting)
+- Perhaps a ti-92 plus emulator for it (just for fun)
 
 Credits
 ------
