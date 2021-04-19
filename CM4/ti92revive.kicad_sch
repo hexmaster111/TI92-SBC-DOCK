@@ -3535,14 +3535,8 @@
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/864d64a4-86b1-466b-85ce-bdf0b3680083"
       (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
     )
-    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/0e9f46d3-75e4-4065-bb37-7f86ad548dc1"
-      (reference "#PWR0130") (unit 1) (value "GND") (footprint "")
-    )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/c4283c5d-b8d4-4ec1-8a14-9048e54a2c87"
       (reference "D1") (unit 1) (value "Activity") (footprint "LED_SMD:LED_2010_5025Metric")
-    )
-    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/6e019a3e-5c1f-433c-ab6d-b068630dca4a"
-      (reference "J4") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal")
     )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/049986b7-1492-41ba-8ea9-2a6ea2286030"
       (reference "R12") (unit 1) (value "1K") (footprint "")
@@ -3660,6 +3654,9 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/6529cbac-5e7e-490a-800c-e0a61c7bd584"
       (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/c21d8748-78a1-42f6-b270-9689038e5c4a"
+      (reference "#PWR0130") (unit 1) (value "Earth_Clean") (footprint "")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/264017f1-90e9-41ac-bc61-3c4cd423311a"
       (reference "#PWR0131") (unit 1) (value "GND") (footprint "")
@@ -3807,6 +3804,63 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/1f2458b3-7fdf-4658-a10e-b0bf6aff31ca"
       (reference "kbPowerButton1") (unit 1) (value "CTRL") (footprint "Button_Switch_SMD:SW_SPST_B3SL-1002P")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/7b8133bb-733c-46a5-8679-d1d7d70f3a1f"
+      (reference "#PWR0134") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/dca48152-9c39-4a77-a864-5c4f75006d7b"
+      (reference "#PWR0135") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/e2f5b425-03c1-4232-a671-91f9162fcdf1"
+      (reference "#PWR0136") (unit 1) (value "Earth_Clean") (footprint "")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a7cde0f1-c874-4c78-ab7a-9177fd1a3e53"
+      (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/cab1357a-117b-491f-a290-b8bdbab89bfc"
+      (reference "#PWR0138") (unit 1) (value "Earth_Clean") (footprint "")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/1dc9a6ed-89b4-494c-87bb-7670efb7677e"
+      (reference "#PWR0139") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/92a70632-f9e6-4fc9-9198-a93865ffdd4d"
+      (reference "C14") (unit 1) (value "CL1") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/9c18d8ce-56b8-42d1-8cc9-2f2a5036cb0f"
+      (reference "C15") (unit 1) (value "CL2") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/2a2bb239-00cf-4038-b06a-26dc3992ddc6"
+      (reference "J4") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/8461c292-6e8c-4ec6-b01d-e6c37f1af3b6"
+      (reference "J5") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Stewart_SS-52100-001_Horizontal")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/135f6ea9-453c-4d83-b634-488c6ef8ae37"
+      (reference "R14") (unit 1) (value "10 M") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/f6536f02-c629-4327-88a3-ee957d4b4da8"
+      (reference "R15") (unit 1) (value "9.53K +-1%") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/584401cc-c903-4e43-b4f6-3a8f12a4217d"
+      (reference "R16") (unit 1) (value "90.9k +-1%") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/d1d537cc-4dee-4e99-b960-180d54368cf0"
+      (reference "R17") (unit 1) (value "10k +-1%") (footprint "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/e865516b-5604-48fc-a7b9-b422e5134e97"
+      (reference "TP13") (unit 1) (value "GRSTz ") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/42a39f93-f943-47d5-83a3-77cc41be763a"
+      (reference "TP14") (unit 1) (value "USB_DP_DN4") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/4b83e1cb-1515-45b4-bb98-918085fd5da0"
+      (reference "TP15") (unit 1) (value "USB_DM_DN4") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/cc373076-d93c-42fd-8cf7-93318b5ebaaa"
+      (reference "U7") (unit 1) (value "TUSB4041I") (footprint "Package_QFP:HTQFP-64-1EP_10x10mm_P0.5mm_EP8x8mm_Mask4.4x4.4mm_ThermalVias")
+    )
+    (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a8950d4d-ce30-4f8e-8389-f9f72c456fff"
+      (reference "Y1") (unit 1) (value "24 MHz") (footprint "teensy:HCM49_E")
     )
   )
 )
