@@ -3,7 +3,7 @@
 
 TODO
 --------
-- [ ] Figure out what display to use
+- [x] Figure out what display to use
 - [ ] Add a headphone port
 - [x] Add a USB Hub
 	- [ ] Route USB in a good way :wink:
@@ -21,6 +21,11 @@ TODO
 		 - [ ] Make a nice overlay for indicators 
 	 - [ ] Measure for USB Connections
 		 - [ ] Modify case
+
+
+Display
+----------
+The display being used is a 4 inch SPI display by waveshare and is connected with a pin header, I still have to get the part and check for fitmint for sure, but [this](https://www.waveshare.com/4inch-RPi-LCD-C.htm) looks prmissing
 
 Battery Charging
 ----------

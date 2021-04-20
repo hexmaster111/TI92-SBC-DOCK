@@ -3214,6 +3214,18 @@
     (pin "2" (uuid 69f69e25-a560-4bc3-b538-02ec58b44655))
   )
 
+  (sheet (at 241.935 85.725) (size 28.575 10.16)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid deaa2a42-5edf-49d0-a8e0-8ad38d123749)
+    (property "Sheet name" "DisplayStuff" (id 0) (at 241.935 85.0893 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "display.kicad_sch" (id 1) (at 241.935 96.3937 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 241.935 53.975) (size 28.575 8.89)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -3268,6 +3280,7 @@
     (path "/70488e98-77ad-453e-805e-5550091ec25f/" (page "3"))
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/" (page "4"))
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/" (page "5"))
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/" (page "6"))
   )
 
   (symbol_instances
@@ -3948,6 +3961,12 @@
     )
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a8950d4d-ce30-4f8e-8389-f9f72c456fff"
       (reference "Y1") (unit 1) (value "24 MHz") (footprint "teensy:HCM49_E")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/0a2dc4dd-32ec-4063-981a-f996d8e100db"
+      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/17af90c7-cb82-4fb1-a7ed-762b203b4f09"
+      (reference "U10") (unit 1) (value "4inch_RPi_LCD_(C)") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x13_P2.54mm_Vertical")
     )
   )
 )
