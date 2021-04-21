@@ -3525,6 +3525,12 @@
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/9d39c217-0d7e-4dd2-84a6-2e2068fff3af"
       (reference "R19") (unit 1) (value "300") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
+    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/343c8812-41bc-4cff-8994-009a9f3eb0a3"
+      (reference "R?") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/feb1cf2c-1f3e-4017-bca7-828e7612a445"
+      (reference "R?") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/efddf7d7-25b1-4157-9149-ddf2be1495df"
       (reference "TP12") (unit 1) (value "USB_OTG_ID_TP") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
@@ -3785,6 +3791,9 @@
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/0f036371-10f0-437e-ba93-766a5f86cb18"
       (reference "TP11") (unit 1) (value "TS") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
+    )
+    (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/ebeba3ea-e9c2-4464-8891-d4582f91b0f5"
+      (reference "TP25") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/cfd44934-7283-4e57-be21-7e0082b17f87"
       (reference "U2") (unit 1) (value "NCP114ASN330T1G") (footprint "Package_TO_SOT_SMD:TSOT-23-5_HandSoldering")
