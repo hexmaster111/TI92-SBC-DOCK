@@ -1,13 +1,11 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 31,
     "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_nets": [
       "col9",
       "Net-(D83-Pad2)",
-      "col7",
-      "col8",
       "col0",
       "Net-(D84-Pad2)",
       "Net-(C14-Pad1)",
@@ -26,7 +24,6 @@
       "row0",
       "Net-(J5-Pad3)",
       "Net-(JP4-Pad2)",
-      "row4",
       "row5",
       "row6",
       "row7",
@@ -66,7 +63,6 @@
       "Net-(U5-Pad5)",
       "Net-(R13-Pad1)",
       "SetPowerON",
-      "col1",
       "+1",
       "Net-(TP17-Pad1)",
       "Net-(TP18-Pad1)",
