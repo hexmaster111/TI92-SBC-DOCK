@@ -366,7 +366,10 @@
     "meta": {
       "version": 0
     },
-    "net_colors": null
+    "net_colors": {
+      "+5": "rgb(255, 0, 7)",
+      "Earth_Clean": "rgb(0, 16, 255)"
+    }
   },
   "pcbnew": {
     "last_paths": {
