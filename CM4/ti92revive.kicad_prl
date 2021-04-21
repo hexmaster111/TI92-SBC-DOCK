@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_nets": [
@@ -24,8 +24,6 @@
       "row0",
       "Net-(J5-Pad3)",
       "Net-(JP4-Pad2)",
-      "row6",
-      "row7",
       "Net-(R16-Pad2)",
       "Net-(TP14-Pad1)",
       "Net-(D1-Pad2)",
@@ -92,10 +90,8 @@
       "/USB and Keyboard connections/KEYBOARD_USB_DN",
       "/USB and Keyboard connections/KEYBOARD_USB_DP",
       "KB_BACKLIGHT_PWM",
-      "col5",
       "row1",
       "col2",
-      "row3",
       "row2"
     ],
     "high_contrast_mode": 0,
