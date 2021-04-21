@@ -4,7 +4,6 @@
     "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_nets": [
-      "col9",
       "Net-(D83-Pad2)",
       "col0",
       "Net-(D84-Pad2)",
@@ -13,7 +12,6 @@
       "Net-(R12-Pad2)",
       "usbOTG_ID",
       "+5",
-      "Earth_Clean",
       "SDA",
       "SCL",
       "+3.3",
@@ -57,7 +55,6 @@
       "batCell+",
       "Net-(TP16-Pad1)",
       "SetPowerOFF",
-      "Net-(U5-Pad5)",
       "Net-(R13-Pad1)",
       "SetPowerON",
       "+1",
@@ -91,8 +88,7 @@
       "/USB and Keyboard connections/KEYBOARD_USB_DP",
       "KB_BACKLIGHT_PWM",
       "row1",
-      "col2",
-      "row2"
+      "col2"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
