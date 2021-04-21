@@ -14,7 +14,7 @@ TODO
 - [x] Figure out how the keyboard will work and talk to the pi
 - [ ] TEST
 - [ ] Write code for the ATTINY85 (aka power control chip)
-	- [ ] Find a better way to switch power?
+	- [ ] ~~Find a better way to switch power?~~
  - [ ] Use the micro USB that is used for charging to also act as USB OTG for flashing the CM4
  - [ ] Figure out a low voltage cut off for the batCell+ line
  - [ ] Calculate R4 on the charge chip
