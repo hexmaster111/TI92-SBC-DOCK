@@ -3525,11 +3525,11 @@
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/9d39c217-0d7e-4dd2-84a6-2e2068fff3af"
       (reference "R19") (unit 1) (value "300") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
-    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/343c8812-41bc-4cff-8994-009a9f3eb0a3"
-      (reference "R?") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_1206_3216Metric")
-    )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/feb1cf2c-1f3e-4017-bca7-828e7612a445"
-      (reference "R?") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_1206_3216Metric")
+      (reference "R21") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/343c8812-41bc-4cff-8994-009a9f3eb0a3"
+      (reference "R22") (unit 1) (value "R_US") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/5d98706f-d271-406b-9d01-9a0abd3931f8/efddf7d7-25b1-4157-9149-ddf2be1495df"
       (reference "TP12") (unit 1) (value "USB_OTG_ID_TP") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
@@ -3572,12 +3572,6 @@
     )
     (path "/70488e98-77ad-453e-805e-5550091ec25f/14d53894-fa11-40a9-ba11-cdbbf0016010"
       (reference "TP7") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/70488e98-77ad-453e-805e-5550091ec25f/557ecf0b-27d4-4e5c-bbab-78a353680e6b"
-      (reference "TP8") (unit 1) (value "14") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
-    )
-    (path "/70488e98-77ad-453e-805e-5550091ec25f/16fd8268-40d7-42a1-800a-dfb34875fbbd"
-      (reference "TP9") (unit 1) (value "15") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/41eb6f93-060e-41f5-8027-881eccf681e3"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
