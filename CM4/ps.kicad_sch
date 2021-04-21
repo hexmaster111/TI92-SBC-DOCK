@@ -4354,7 +4354,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CTRL" (id 1) (at 186.69 112.268 0))
-    (property "Footprint" "Button_Switch_SMD:SW_SPST_B3SL-1002P" (id 2) (at 193.802 111.252 0)
+    (property "Footprint" "lib:Kbpad" (id 2) (at 193.802 111.252 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 193.802 111.252 0)

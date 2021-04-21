@@ -1782,6 +1782,13 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
+  (global_label "usbOTG_ID" (shape input) (at 186.69 27.305 180)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid d32e83d0-f3f3-4676-9a56-42ca0390e220)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 174.5402 27.2256 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
 
   (symbol (lib_id "Connector:TestPoint_Small") (at 186.69 24.765 0) (unit 1)
     (in_bom yes) (on_board yes)

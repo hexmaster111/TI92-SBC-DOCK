@@ -157,4 +157,5 @@
   (lib (name "trinamic_PMIC-Motor-Drivers-Controllers")(type "Legacy")(uri "${KIPRJMOD}/lib/digikey-partner-kicad-library/Trinamic/trinamic-symbols/trinamic_PMIC-Motor-Drivers-Controllers.lib")(options "")(descr ""))
   (lib (name "BQ25887RGET")(type "KiCad")(uri "${KIPRJMOD}/lib/BQ25887RGET.kicad_sym")(options "")(descr ""))
   (lib (name "Relay")(type "KiCad")(uri "${KIPRJMOD}/lib/2021-04-16_16-20-05.kicad_sym")(options "")(descr ""))
+  (lib (name "kb5-rescue")(type "Legacy")(uri "${KIPRJMOD}/lib/kb5-rescue.lib")(options "")(descr ""))
 )
