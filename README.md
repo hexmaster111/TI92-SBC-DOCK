@@ -6,6 +6,7 @@ The Zero version is not currently being worked on and is an unusable state
 
 TODO
 --------
+- [ ] Add a SD card slot
 - [x] Figure out what display to use
 - [ ] Add a headphone port
 - [x] Add a USB Hub
