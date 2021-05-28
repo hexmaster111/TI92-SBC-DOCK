@@ -6,6 +6,7 @@ The Zero version is not currently being worked on and is an unusable state
 
 TODO
 --------
+- [ ] Whats gonna happon is im gonna get a 4 inch hdmi display and desolder the hdmi connector and add it to a ribbion cable and then add a connector to the pcb for hdmi to interface with that
 - [ ] Add a SD card slot
 - [x] Figure out what display to use
 - [ ] Add a headphone port
