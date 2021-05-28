@@ -1529,6 +1529,10 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid a893c0ec-c21d-432b-a73d-4ce17a401f40)
   )
+  (text "TODO:\nAdd SDCARD Slot\nDisplay " (at 68.58 144.145 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 6dcc990b-15ae-4c05-b529-beb902b635af)
+  )
 
   (label "row0" (at 30.48 43.18 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
@@ -3927,23 +3931,8 @@
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a8950d4d-ce30-4f8e-8389-f9f72c456fff"
       (reference "Y1") (unit 1) (value "24 MHz") (footprint "teensy:HCM49_E")
     )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/0a2dc4dd-32ec-4063-981a-f996d8e100db"
-      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/9518133d-6049-47a4-86a3-4d24f6fa40a6"
-      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/80f757e9-897b-4aed-8a1e-6dc617685752"
-      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/e8d94436-431a-4be0-80a1-acacd5ee34da"
-      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/f7bd4909-5231-41d0-bb21-aca3b104a336"
-      (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/72ed022f-9aa1-42af-931c-46ec3d0422a6"
-      (reference "U10") (unit 1) (value "4inch_RPi_LCD_(C)") (footprint "")
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/202ac646-4d90-48da-b41b-80fce3ff1bfd"
+      (reference "J?") (unit 1) (value "HDMI_A_1.4") (footprint "")
     )
   )
 )

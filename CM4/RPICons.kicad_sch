@@ -1681,7 +1681,7 @@
   )
 
   (text "PULL HIGH TO KEEP POWER ON\nPULL LOW TO POWER OFF 5V"
-    (at 146.558 83.693 0)
+    (at 128.778 83.693 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid df8e058c-4cec-4489-8c64-afc5ec15dd80)
   )
