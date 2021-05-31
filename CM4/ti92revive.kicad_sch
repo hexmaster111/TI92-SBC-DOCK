@@ -3553,6 +3553,9 @@
     (path "/70488e98-77ad-453e-805e-5550091ec25f/7c8e8e29-2e23-4bf1-9c0a-8dce3118cebd"
       (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
     )
+    (path "/70488e98-77ad-453e-805e-5550091ec25f/dbf06b6c-91fb-42d4-8c2a-2b77bb425e80"
+      (reference "#PWR0153") (unit 1) (value "GND") (footprint "")
+    )
     (path "/70488e98-77ad-453e-805e-5550091ec25f/6f3164af-47a5-484a-9183-9576a35c6557"
       (reference "TP0") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
@@ -3576,6 +3579,15 @@
     )
     (path "/70488e98-77ad-453e-805e-5550091ec25f/14d53894-fa11-40a9-ba11-cdbbf0016010"
       (reference "TP7") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/70488e98-77ad-453e-805e-5550091ec25f/7001128f-4a35-45fa-ac71-f52a72f2c2e4"
+      (reference "TP8") (unit 1) (value "SP14") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/70488e98-77ad-453e-805e-5550091ec25f/5188ea8c-f038-41bd-a5c9-5b895e6d1109"
+      (reference "TP9") (unit 1) (value "SP15") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
+    )
+    (path "/70488e98-77ad-453e-805e-5550091ec25f/d7686eca-05de-41e7-8f90-bf4d985a3a6b"
+      (reference "TP26") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/41eb6f93-060e-41f5-8027-881eccf681e3"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
@@ -3931,8 +3943,83 @@
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a8950d4d-ce30-4f8e-8389-f9f72c456fff"
       (reference "Y1") (unit 1) (value "24 MHz") (footprint "teensy:HCM49_E")
     )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/7c7ae3ba-ff8e-4153-95be-4c8b41451033"
-      (reference "J6") (unit 1) (value "ZF5S-20-01-T-WT") (footprint "SAMTEC_ZF5S-20-01-T-WT")
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/81cfffdc-9d9a-47b3-8b54-44936202a0af"
+      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/3258b732-fe0d-4fbf-81a3-5f3bc5a3fbe6"
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/0bdcf8d6-412e-4daa-934b-5be1c162bf64"
+      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/16386dc5-3b3c-47c5-84f1-499235280464"
+      (reference "#PWR0151") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/f3ed8bb6-6f6d-45b9-a57c-809a63eabf0d"
+      (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/05aad73b-a7f3-432a-9054-f5df121ee34a"
+      (reference "J?") (unit 1) (value "ZF5S-20-01-T-WT") (footprint "SAMTEC_ZF5S-20-01-T-WT")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/0f9d3d67-c27c-4a15-9d00-ef9eaac599f8"
+      (reference "JP5") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/59a934c9-7114-40b2-a7c1-60b7fe640c20"
+      (reference "JP6") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/1790bbf7-90e1-4774-b285-84c4405a84d0"
+      (reference "JP7") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/00a41754-13d0-4569-a2b2-f2ad94c69d4d"
+      (reference "JP8") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/62a76d4c-c044-47e5-a581-91fd46ec5e38"
+      (reference "JP9") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/79d745fb-0b9f-44e5-b487-b8b31a1391cc"
+      (reference "JP10") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/c8524dbe-3d06-4999-947c-a69bce0ff552"
+      (reference "JP11") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/3e37351a-0ef9-42fc-b916-9115b6ce57e4"
+      (reference "JP12") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/97125d97-5c90-47b8-a218-f8f28fb2021e"
+      (reference "JP13") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/f4d49e29-1755-4962-a00d-f665d4cc0be8"
+      (reference "JP14") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/e7e86069-ec3d-4a3e-ba4e-cb302c6600e3"
+      (reference "JP15") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/3da8aca6-c927-429f-88f1-885afa8a819c"
+      (reference "JP16") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/467f45af-6703-4170-814a-467ce20f7246"
+      (reference "JP17") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/55278141-c0bc-4408-981b-5b255d3a9c9d"
+      (reference "JP18") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/f1a89402-e1ae-413e-9101-61d7d5f55be0"
+      (reference "JP19") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/c84b0d9f-9959-4b8a-bad6-27972fb42f36"
+      (reference "JP20") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/5c9ce41f-ec97-4004-ab77-d0c94b310ae2"
+      (reference "JP21") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/77f274ae-575f-4687-bbe8-6b79ccd77275"
+      (reference "JP22") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/1bcc7392-d776-42c4-84eb-a9b0e9094d6d"
+      (reference "JP23") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/b7f60bf2-2b8b-47f9-a109-235fe055bea5"
+      (reference "JP24") (unit 1) (value "SolderJumper_2_Bridged") (footprint "")
     )
   )
 )
