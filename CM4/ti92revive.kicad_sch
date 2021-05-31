@@ -3931,8 +3931,8 @@
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a8950d4d-ce30-4f8e-8389-f9f72c456fff"
       (reference "Y1") (unit 1) (value "24 MHz") (footprint "teensy:HCM49_E")
     )
-    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/202ac646-4d90-48da-b41b-80fce3ff1bfd"
-      (reference "J?") (unit 1) (value "HDMI_A_1.4") (footprint "")
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/7c7ae3ba-ff8e-4153-95be-4c8b41451033"
+      (reference "J6") (unit 1) (value "ZF5S-20-01-T-WT") (footprint "SAMTEC_ZF5S-20-01-T-WT")
     )
   )
 )
