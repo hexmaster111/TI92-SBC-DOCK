@@ -3216,6 +3216,18 @@
     )
   )
 
+  (sheet (at 241.935 104.775) (size 28.575 13.335)
+    (stroke (width 0.0006) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3967c5d9-7139-462e-85dd-613180c27708)
+    (property "Sheet name" "SDCard" (id 0) (at 241.935 104.1393 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "SDCard.kicad_sch" (id 1) (at 241.935 118.6187 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet (at 241.935 38.354) (size 28.575 8.636)
     (stroke (width 0.0006) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -3247,6 +3259,7 @@
     (path "/1ac94e0c-d44c-4ee7-9549-80938fb95f34/" (page "4"))
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/" (page "5"))
     (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/" (page "6"))
+    (path "/3967c5d9-7139-462e-85dd-613180c27708/" (page "7"))
   )
 
   (symbol_instances
@@ -3948,6 +3961,18 @@
     )
     (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/05aad73b-a7f3-432a-9054-f5df121ee34a"
       (reference "J6") (unit 1) (value "ZF5S-20-01-T-WT") (footprint "SAMTEC_ZF5S-20-01-T-WT")
+    )
+    (path "/3967c5d9-7139-462e-85dd-613180c27708/46b93ecf-e78c-48e7-a0cb-c8181f7860a1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3967c5d9-7139-462e-85dd-613180c27708/f5a17727-f806-48c2-9ce9-0b13d097a625"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3967c5d9-7139-462e-85dd-613180c27708/b6337edd-4f17-42f1-b0a2-dcc794480dbc"
+      (reference "C?") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/3967c5d9-7139-462e-85dd-613180c27708/0c265a58-dc9d-41fb-b30b-f67b537f5fdd"
+      (reference "J?") (unit 1) (value "Micro_SD_Card") (footprint "")
     )
   )
 )
