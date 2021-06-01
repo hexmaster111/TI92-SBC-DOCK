@@ -32,6 +32,8 @@ Display
 ----------
 The display being used is a 4 inch SPI display by waveshare and is connected with a pin header, I still have to get the part and check for fitmint for sure, but [this](https://www.waveshare.com/4inch-RPi-LCD-C.htm) looks prmissing
 
+for the display, install accoring to waveshare https://www.waveshare.com/wiki/4inch_HDMI_LCD and deleate all the vc4 overlays and it works (somehow)
+
 Battery Charging
 ----------
 For charging two 18650s I'm using the BQ25887RGET Chip by TI. This chip should have enough current to keep the batteries charged in use. For power input I'm using a Micro USB 
