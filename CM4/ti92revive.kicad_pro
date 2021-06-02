@@ -99,7 +99,7 @@
       },
       "rules": {
         "allow_blind_buried_vias": false,
-        "allow_microvias": true,
+        "allow_microvias": false,
         "max_error": 0.005,
         "min_clearance": 0.127,
         "min_copper_edge_clearance": 0.00762,
