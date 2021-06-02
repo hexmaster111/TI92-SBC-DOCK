@@ -159,4 +159,5 @@
   (lib (name "Relay")(type "KiCad")(uri "${KIPRJMOD}/lib/2021-04-16_16-20-05.kicad_sym")(options "")(descr ""))
   (lib (name "kb5-rescue")(type "Legacy")(uri "${KIPRJMOD}/lib/kb5-rescue.lib")(options "")(descr ""))
   (lib (name "ZF5S-20-01-T-WT")(type "Legacy")(uri "${KIPRJMOD}/lib/ZF5S-20-01-T-WT.lib")(options "")(descr ""))
+  (lib (name "2021-06-02_01-03-09")(type "Legacy")(uri "${KIPRJMOD}/lib/2021-06-02_01-03-09.lib")(options "")(descr ""))
 )

@@ -1529,10 +1529,6 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid a893c0ec-c21d-432b-a73d-4ce17a401f40)
   )
-  (text "TODO:\nBacklight Power Control\n" (at 90.805 156.845 180)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid f5d1d2ae-6cf6-4b5c-bc6a-a59736838f1d)
-  )
 
   (label "row0" (at 30.48 43.18 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
@@ -3956,11 +3952,17 @@
     (path "/60beade3-25b6-4075-b5fd-5a6340fab42e/a8950d4d-ce30-4f8e-8389-f9f72c456fff"
       (reference "Y1") (unit 1) (value "24 MHz") (footprint "teensy:HCM49_E")
     )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/27ce00c4-639c-4961-84ff-2278e1a07cf5"
+      (reference "#PWR0150") (unit 1) (value "GND") (footprint "")
+    )
     (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/f3ed8bb6-6f6d-45b9-a57c-809a63eabf0d"
       (reference "#PWR0152") (unit 1) (value "GND") (footprint "")
     )
     (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/05aad73b-a7f3-432a-9054-f5df121ee34a"
       (reference "J6") (unit 1) (value "ZF5S-20-01-T-WT") (footprint "SAMTEC_ZF5S-20-01-T-WT")
+    )
+    (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/273ad236-dd19-447e-87f6-31e2d897e56e"
+      (reference "J8") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical")
     )
     (path "/3967c5d9-7139-462e-85dd-613180c27708/f5a17727-f806-48c2-9ce9-0b13d097a625"
       (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
