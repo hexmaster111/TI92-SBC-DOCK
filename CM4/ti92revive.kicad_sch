@@ -1529,9 +1529,9 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid a893c0ec-c21d-432b-a73d-4ce17a401f40)
   )
-  (text "TODO:\nAdd SDCARD Slot\nDisplay " (at 68.58 144.145 180)
+  (text "TODO:\nBacklight Power Control\n" (at 90.805 156.845 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 6dcc990b-15ae-4c05-b529-beb902b635af)
+    (uuid f5d1d2ae-6cf6-4b5c-bc6a-a59736838f1d)
   )
 
   (label "row0" (at 30.48 43.18 0)
@@ -3962,17 +3962,17 @@
     (path "/deaa2a42-5edf-49d0-a8e0-8ad38d123749/05aad73b-a7f3-432a-9054-f5df121ee34a"
       (reference "J6") (unit 1) (value "ZF5S-20-01-T-WT") (footprint "SAMTEC_ZF5S-20-01-T-WT")
     )
-    (path "/3967c5d9-7139-462e-85dd-613180c27708/46b93ecf-e78c-48e7-a0cb-c8181f7860a1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/3967c5d9-7139-462e-85dd-613180c27708/f5a17727-f806-48c2-9ce9-0b13d097a625"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0148") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3967c5d9-7139-462e-85dd-613180c27708/46b93ecf-e78c-48e7-a0cb-c8181f7860a1"
+      (reference "#PWR0149") (unit 1) (value "GND") (footprint "")
     )
     (path "/3967c5d9-7139-462e-85dd-613180c27708/b6337edd-4f17-42f1-b0a2-dcc794480dbc"
-      (reference "C?") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
+      (reference "C18") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/3967c5d9-7139-462e-85dd-613180c27708/0c265a58-dc9d-41fb-b30b-f67b537f5fdd"
-      (reference "J?") (unit 1) (value "Micro_SD_Card") (footprint "")
+      (reference "J7") (unit 1) (value "Micro_SD_Card") (footprint "teensy:MOLEX_503182-1852")
     )
   )
 )
